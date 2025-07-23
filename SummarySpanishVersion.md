@@ -350,3 +350,57 @@ def maquina_de_dulces(moneda):
 print(maquina_de_dulces("1 bs"))  # Caramelo
 print(maquina_de_dulces("5 bs"))  # Sin dulces
 ```
+
+## 5. Manejo de Archivos y Datos
+
+En Python, puedes leer archivos, escribir archivos para agregar o guardar informacion y modificar archivos o cambiar contenido.
+
+Vamos a entender un poquito mas, IMAGINA - El guion de una obra de teatro:
+
+- "r" = leer el guion actual
+- "w" = escribir un nuevo guion desde cero
+- "a" = agregar escenas extra al final del guion
+
+Mas detalles, adelante.
+
+### Escribir en un archivo
+
+```python
+# Usa "w" = write/escribir
+with open("notas.txt", "w") as archivo:
+    archivo.write("Hoy aprendí Python!")
+```
+
+> OJO: "w" sobrescribe todo el archivo.
+
+### Agregar contenido sin borrar
+
+```python
+# Use "a" = append/añadir
+with open("notas.txt", "a") as archivo:
+    archivo.write("\nY también aprendí a manejar archivos 📂")
+```
+
+### Leer un archivo
+
+```python
+# Usa "r" = read/leer
+archivo = open("datos.txt", "r")
+contenido = archivo.read()
+print(contenido)
+archivo.close()
+
+# Tambien puedes leer el archivo y mostrarlo por pantalla
+with open("datos.txt", "r") as archivo:
+    contenido = archivo.read()
+    print(contenido)
+```
+
+### Leemos el archivo linea por linea
+
+```python
+# Usa "r" para leer y "for" para recorrer el archivo
+with open("notas.txt", "r") as archivo:
+    for linea in archivo:
+        print(linea.strip())
+```
