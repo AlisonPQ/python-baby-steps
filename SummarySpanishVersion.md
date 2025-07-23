@@ -404,3 +404,24 @@ with open("notas.txt", "r") as archivo:
     for linea in archivo:
         print(linea.strip())
 ```
+
+## 6. Bonus
+
+Formas de imprimir en Python con estilo
+
+```python
+# Usar directamente print()
+print("Hola, mundo!")
+
+# Imprimir variables
+nombre = "Alice"
+edad = 8
+print(nombre)  # ===> Alice
+
+# Imprimir valores, separados por coma
+print("Hola", nombre, "bienvenida!")  # ==> Hola Alice bienvenida!
+
+# Usar f-strings, formato moderno y favorito <3
+# Súper limpio, fácil de leer y escribir.
+print(f"Hola, me llamo {nombre} y tengo {edad} años.")
+```
