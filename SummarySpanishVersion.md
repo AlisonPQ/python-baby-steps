@@ -167,3 +167,87 @@ IDE oficial!! `solo si quieres! ;)`
 ```
 
 Challenge: Correr un "Hola mundo";
+
+## 2. Estructura de Datos
+
+Una estructura de datos es una forma de organizar y guardar información para que sea fácil de usar, buscar, modificar o eliminar.
+
+### Antes de empezar, REGLA MAGICA
+
+`Cada linea de codigo debe estar bien alineado… o el código se vuelve un spaquetti.`
+
+#### Que es la identacion?
+
+En Python, indentar es poner espacios al comienzo de las líneas para que el código se entienda. Es como ordenar los muebles en tu cuarto: si todo está desordenado, no puedes moverte bien.
+
+Cuando usas un if, for, while, o una función...
+¡Las líneas que siguen deben estar dentro del bloque con espacios `usa la tecla TAB`!
+
+Si haces lo siguiente, python grita! hahaha, tipo `¡IndentationError!`
+
+```python
+if edad < 10:
+print("¡Hola!")  # 😱 Error, está todo chueco
+```
+
+**Nota importante:**
+>_Indentar es ordenar… y así mi código puede brillar._
+
+### Lists
+
+- Mutables (puedes cambiar sus elementos).
+- Se definen con corchetes [].
+- Puedes agregar, eliminar o modificar elementos.
+- Más lentas que las tuplas al acceder a los datos.
+- Ideales cuando necesitas cambiar los valores después.
+
+```python
+mochila = ["cuaderno", "lapiz", "snack", "telefono"]
+
+# Como acceder a los datos
+print(mochila[0])  # Output: cuaderno
+print(mochila[3])  # Output: telefono
+
+
+# Como adicionar mas datos a tu lista usa "append"
+mochila.append("gafas de sol")
+print(mochila)  # Output: ['cuaderno', 'lapiz', 'snack', 'telefono', 'gafas de sol']
+
+
+# Como eliminar datos de tu lista usa remove
+mochila.remove("snack")
+print(mochila)  # Output: ['cuaderno', 'lapiz', 'telefono', 'gafas de sol']
+
+# Como recorrer tu lista
+for item in mochila:
+  print("Empaque mi", item)
+```
+
+### Tuplas
+
+- Inmutables (no se pueden cambiar una vez creadas).
+- Se definen con paréntesis ().
+- No puedes modificar sus valores (sin trucos).
+- Más rápidas y ligeras que las listas.
+- Ideales para datos constantes.
+
+```python
+# Ejemplos
+birthday = (11, "July", 2005)
+print(birthday[0]) # Imprime solo el dia
+
+location = (16.5, -68.1)
+print(location) # Imprime todos los datos
+```
+
+### Listas vs Tuplas
+
+Para pensar:
+
+| Data                      | Lista o Tupla? |
+| ------------------------- | -------------- |
+| Canciones favoritas       | Lista 🎵       |
+| Fecha de nacimiento       | Tupla 🎂       |
+| Cosas para comprar        | Lista 🛒       |
+| Talla de zapato y altura  | Tupla 👟📏     |
+| Ropa de viaje             | Lista 👚🧳     |
