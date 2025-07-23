@@ -251,3 +251,62 @@ Para pensar:
 | Cosas para comprar        | Lista 🛒       |
 | Talla de zapato y altura  | Tupla 👟📏     |
 | Ropa de viaje             | Lista 👚🧳     |
+
+## 3. Estructuras de Control
+
+Son como las reglas del juego o los semáforos que le dicen al programa qué camino tomar, cuándo repetir algo o cuándo detenerse.
+
+### Condicionales
+
+Un condicional sirve para tomar decisiones en tu programa.
+
+``` python
+# Nota: Si pasa esto, haz esto otro. Si no, haz algo diferente.
+```
+
+IMPORTANTE: En python
+
+> - `if` cuando si se cumple una condición
+> - `elif` cuando no se cumple la primera, prueba otra
+> - `else` cuando no se cumple nada de lo anterior
+
+```python
+# Usar cuando solo tengas dos opciones
+
+if edad >= 18:
+    print("Eres mayor de edad")
+else:
+    print("Eres menor de edad")
+
+# Usar Cuando tengas mas de dos opciones, usalo con sabiduria :V
+nota = 15
+
+if nota >= 18:
+  print("Excelente")
+elif nota >= 13:
+  print("Aprobado")
+else:
+  print("Reprobado")
+```
+
+> Nota: Usa `:` al final de la línea del `if`, `elif` y `else`.
+
+### Iteraciones/Bucles
+
+El programa hace algo una y otra vez.
+
+```python
+# Uso de for: por cada animal en la lista, salúdalo”
+animales = ["perro", "gato", "conejo"]
+for animal in animales:
+    print("Hola", animal)
+
+# Uso de while: imprime tus vidas mientras sea mayor que 0 
+vidas = 3
+
+while vidas > 0:
+    print("Te quedan", vidas, "vidas <3")
+    vidas -= 1
+
+print("¡Game Over!")
+```
