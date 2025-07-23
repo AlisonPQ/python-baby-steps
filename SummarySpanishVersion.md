@@ -310,3 +310,43 @@ while vidas > 0:
 
 print("¡Game Over!")
 ```
+
+## 4. Funciones
+
+- Le das algunos ingredientes (`valores de entrada`) y te da un resultado.
+- Puedes usar la misma función muchas veces sin tener que escribir todo de nuevo.
+
+Importante entender:
+
+- `def` => es como decir "voy a definir una función"
+- `saludar` => nombre de la función (puedes llamarla como quieras)
+- `nombre` => es un parámetro (lo que le das a la función)
+- `print(...)` => lo que hace la función
+
+```python
+def saludar(nombre):      # Definición con un parámetro
+    print("Hola, " + nombre + "!")
+
+# Puedes usar la funcion "saludar" muchas veces
+saludar("Aly")
+# Hola, Aly!
+
+saludar("Anastasia")
+# Hola, Anastasia
+```
+
+Otro ejemplo:
+
+```python
+def maquina_de_dulces(moneda):
+    if moneda == "1 bs":
+        return "Caramelo"
+    elif moneda == "2 bs":
+        return "Chocolate"
+    else:
+        return "Sin dulces"
+
+# Llamando a la funcion
+print(maquina_de_dulces("1 bs"))  # Caramelo
+print(maquina_de_dulces("5 bs"))  # Sin dulces
+```
