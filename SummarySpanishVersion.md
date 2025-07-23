@@ -1,5 +1,36 @@
 # Python
 
+- [Python](#python)
+  - [1. Introduccion](#1-introduccion)
+    - [Programacion](#programacion)
+      - [Que es?](#que-es)
+    - [Importancia y aplicaciones](#importancia-y-aplicaciones)
+    - [Algoritmos](#algoritmos)
+    - [Lenguaje de Programacion](#lenguaje-de-programacion)
+    - [Pensar como programador](#pensar-como-programador)
+      - [Divide y venceras / Descomposicion](#divide-y-venceras--descomposicion)
+      - [Busca Patrones](#busca-patrones)
+      - [Abstraccion](#abstraccion)
+    - [Introduccion a Python](#introduccion-a-python)
+      - [IDE](#ide)
+      - [Replit](#replit)
+  - [2. Estructura de Datos](#2-estructura-de-datos)
+    - [Antes de empezar, REGLA MAGICA](#antes-de-empezar-regla-magica)
+      - [Que es la identacion?](#que-es-la-identacion)
+    - [Lists](#lists)
+    - [Tuplas](#tuplas)
+    - [Listas vs Tuplas](#listas-vs-tuplas)
+  - [3. Estructuras de Control](#3-estructuras-de-control)
+    - [Condicionales](#condicionales)
+    - [Iteraciones/Bucles](#iteracionesbucles)
+  - [4. Funciones](#4-funciones)
+  - [5. Manejo de Archivos y Datos](#5-manejo-de-archivos-y-datos)
+    - [Escribir en un archivo](#escribir-en-un-archivo)
+    - [Agregar contenido sin borrar](#agregar-contenido-sin-borrar)
+    - [Leer un archivo](#leer-un-archivo)
+    - [Leemos el archivo linea por linea](#leemos-el-archivo-linea-por-linea)
+  - [6. Bonus](#6-bonus)
+
 ## 1. Introduccion
 
 ### Programacion
