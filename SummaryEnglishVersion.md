@@ -35,3 +35,24 @@ Programming is very important because it allows us to create technology, solve p
 > So... programming is the language we use to talk to computers and tell them what to do.  
 > And nowadays, knowing how to program is almost as important as knowing how to read or write — why?  
 > Because computers are everywhere!
+
+### Algorithms
+
+An algorithm is **LIKE** a step-by-step guide that tells you how to do something. It is a set of clear and ordered instructions that follow a process to solve a problem or complete a task.
+
+When you give directions to your friend to get to your house:
+
+1. Leave the yellow cable car station.
+2. Walk 3 blocks east.
+3. Cross the street and turn right.
+4. Walk 2 more blocks and you will reach a park.
+5. My house is right in front of the park, next to the ice cream shop.
+
+> So your friend doesn't get lost.
+
+Note: _This is pseudocode. :D_
+
+``` Python
+# More examples?...(Mic to the audience!)
+```
+
