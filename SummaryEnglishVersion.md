@@ -167,5 +167,88 @@ Official IDE!! `Only if you want to! ;)`
 # Expectation: Click, click... next, next!
 # Reality: Well, it depends on the system you're using right now.
 # Choose the 'free version'
+```
 
 Challenge: Run a "Hello World"
+
+## 2. Data Structures
+
+A data structure is a way to organize and store information so it's easy to use, search, modify, or delete.
+
+### Before we begin, MAGIC RULE
+
+`Each line of code must be properly aligned… or the code turns into spaghetti.`
+
+#### What is indentation?
+
+In Python, indenting means adding spaces at the beginning of lines so the code makes sense. It’s like arranging furniture in your room: if everything’s messy, you can’t move around well.
+
+When you use `if`, `for`, `while`, or define a function...  
+The lines that follow must be indented as part of the block.  
+`Use the TAB key!`
+
+If you do this, Python will scream! hahaha, like `IndentationError!`
+
+```python
+if age < 10:
+print("Hello!")  # 😱 Error, it’s all crooked
+````
+
+**Important note:**
+>_Indenting is organizing… and that’s how my code can shine._
+
+### Lists
+- Mutable (you can change the elements).
+- Defined with square brackets [].
+- You can add, remove, or modify elements.
+- Slower than tuples when accessing data.
+- Great when you need to change the values later.
+
+```python
+backpack = ["notebook", "pencil", "snack", "phone"]
+
+# How to access data
+print(backpack[0])  # Output: notebook
+print(backpack[3])  # Output: phone
+
+# How to add more items to your list using "append"
+backpack.append("sunglasses")
+print(backpack)  # Output: ['notebook', 'pencil', 'snack', 'phone', 'sunglasses']
+
+# How to remove items from your list using "remove"
+backpack.remove("snack")
+print(backpack)  # Output: ['notebook', 'pencil', 'phone', 'sunglasses']
+
+# How to loop through your list
+for item in backpack:
+  print("I packed my", item)
+```
+
+### Tuples
+
+- Immutable (can’t be changed once created).
+- Defined with parentheses ().
+- You can’t modify their values (unless you use tricks).
+- Faster and lighter than lists.
+- Ideal for constant data.
+
+```python
+# Examples
+birthday = (11, "July", 2005)
+print(birthday[0]) # Prints just the day
+
+location = (16.5, -68.1)
+print(location) # Prints all the data
+```
+
+### Lists vs Tuples
+
+Something to think about:
+
+| Data                      | List or Tuple? |
+| ------------------------- | -------------- |
+| Favorite songs            | List 🎵        |
+| Birthdate                 | Tuple 🎂       |
+| Shopping list             | List 🛒        |
+| Shoe size and height      | Tuple 👟📏     |
+| Travel clothes            | List 👚🧳      |
