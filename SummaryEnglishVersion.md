@@ -252,3 +252,62 @@ Something to think about:
 | Shopping list             | List 🛒        |
 | Shoe size and height      | Tuple 👟📏     |
 | Travel clothes            | List 👚🧳      |
+
+## 3. Control Structures
+
+These are like the rules of the game or traffic lights that tell the program which path to take, when to repeat something, or when to stop.
+
+### Conditionals
+
+A conditional is used to make decisions in your program.
+
+```python
+# Note: If this happens, do this. If not, do something else.
+````
+
+IMPORTANT: In Python
+
+> - `if` when a condition is true  
+> - `elif` when the first condition isn't true, try another  
+> - `else` when none of the above conditions are true
+
+```python
+# Use this when you only have two options
+
+if age >= 18:
+    print("You are an adult")
+else:
+    print("You are a minor")
+
+# Use this when you have more than two options — use it wisely :V
+grade = 15
+
+if grade >= 18:
+  print("Excellent")
+elif grade >= 13:
+  print("Passed")
+else:
+  print("Failed")
+````
+
+> Note: Use `:` at the end of the `if`, `elif`, and `else` lines.
+
+### Loops/Iterations
+
+The program does something over and over again.
+
+```python
+# Using for: for each animal in the list, say hello to it
+animals = ["dog", "cat", "rabbit"]
+for animal in animals:
+    print("Hello", animal)
+
+# Using while: print your lives as long as it's greater than 0
+lives = 3
+
+while lives > 0:
+    print("You have", lives, "lives left <3")
+    lives -= 1
+
+print("Game Over!")
+```
