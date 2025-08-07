@@ -311,3 +311,43 @@ while lives > 0:
 
 print("Game Over!")
 ```
+
+## 4. Functions
+
+- You give it some ingredients (`input values`) and it gives you a result.
+- You can use the same function many times without rewriting everything.
+
+Important to understand:
+
+- `def` => it's like saying "I'm going to define a function"
+- `greet` => name of the function (you can name it whatever you like)
+- `name` => this is a parameter (what you give to the function)
+- `print(...)` => what the function does.
+
+```python
+def greet(name):      # Definition with a parameter
+    print("Hello, " + name + "!")
+
+# You can use the "greet" function many times
+greet("Aly")
+# Hello, Aly!
+
+greet("Anastasia")
+# Hello, Anastasia
+```
+
+Another example:
+
+```python
+def candy_machine(coin):
+    if coin == "1 bs":
+        return "Candy"
+    elif coin == "2 bs":
+        return "Chocolate"
+    else:
+        return "No candy"
+
+# Calling the function
+print(candy_machine("1 bs"))  # Candy
+print(candy_machine("5 bs"))  # No candy
+````
