@@ -405,3 +405,23 @@ with open("notes.txt", "r") as file:
     for line in file:
         print(line.strip())
 ```
+
+## 6. Bonus
+
+Ways to print in Python with style
+
+```python
+# Use print() directly
+print("Hello, world!")
+
+# Print variables
+name = "Alice"
+age = 8
+print(name)  # ===> Alice
+
+# Print values, separated by commas
+print("Hello", name, "welcome!")  # ==> Hello Alice welcome!
+
+# Use f-strings, modern and favorite format <3
+# Super clean, easy to read and write.
+print(f"Hi, my name is {name} and I am {age} years old.")
