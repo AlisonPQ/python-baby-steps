@@ -350,4 +350,58 @@ def candy_machine(coin):
 # Calling the function
 print(candy_machine("1 bs"))  # Candy
 print(candy_machine("5 bs"))  # No candy
-````
+```
+
+## 5. File and Data Handling
+
+In Python, you can read files, write files to add or save information, and modify files or change content.
+
+Let’s understand a bit more—IMAGINE: the script of a play:
+
+- "r" = read the current script  
+- "w" = write a brand new script from scratch  
+- "a" = add extra scenes at the end of the script
+
+More details coming up.
+
+### Writing to a File
+
+```python
+# Use "w" = write
+with open("notes.txt", "w") as file:
+    file.write("Today I learned Python!")
+```
+
+> WARNING: "w" will overwrite the entire file.
+
+### Adding Content Without Deleting
+
+```python
+# Use "a" = append
+with open("notes.txt", "a") as file:
+    file.write("\nAnd I also learned how to handle files 📂")
+```
+
+### Reading a File
+
+```python
+# Use "r" = read
+file = open("data.txt", "r")
+content = file.read()
+print(content)
+file.close()
+
+# You can also read the file and display it
+with open("data.txt", "r") as file:
+    content = file.read()
+    print(content)
+```
+
+### Reading Line by Line
+
+```python
+# Use "r" to read and "for" to go through the file
+with open("notes.txt", "r") as file:
+    for line in file:
+        print(line.strip())
+```
