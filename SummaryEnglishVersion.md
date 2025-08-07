@@ -56,3 +56,116 @@ Note: _This is pseudocode. :D_
 # More examples?...(Mic to the audience!)
 ```
 
+### Programming Language
+
+Just like in real life we have languages to speak with each other (Spanish, English, ...), in programming we also use special languages to communicate with computers. But unlike the languages we use every day, programming languages must be very precise and exact, because computers only understand clear instructions.
+
+> Computers are cold.
+
+```python
+print("Hello world!")
+```
+
+| Language       | What is it used for?                                                                                                            |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| **Python**     | Easy to learn and use. Great for beginners and useful for many things, like games and artificial intelligence.                 |
+| **JavaScript** | Used to **create interactive websites**. Ideal for making dynamic web pages.                                                   |
+| **Java**       | Used to **build large applications**, such as Android mobile apps or enterprise software.                                      |
+| **C++**        | Fast and powerful. Ideal for **games** or applications that need a lot of **speed**.                                           |
+
+So...
+
+To write a program, you use:
+
+- A programming language.
+- A text editor or development environment (..., REPLIT).
+
+Then, you give the program a set of instructions, and the computer follows them.
+
+### Thinking Like a Programmer
+
+- Divide and conquer.
+- Logical and systematic thinking
+  - Decomposition
+  - Patterns
+  - Abstraction
+
+> Don't panic :P  
+>
+> **MORE DETAILS BELOW**
+
+#### Divide and Conquer / Decomposition
+
+This is something programmers do all the time.
+
+When your grandma says: "Hey sweetie, since you're a programmer, make me a party program!"  
+`// 100% true story no fake`
+
+You apply the `DIVIDE AND CONQUER` method... You need to organize the party. Instead of trying to do everything at once, you break it down into tasks:
+
+- ~~Make a guest list.~~
+- Buy food.
+- Decorate the house.
+- Prepare the music.
+
+> Same thing applies to programming: when you have a complex problem, you break it down into simpler tasks and solve them step by step—no panic needed.
+
+#### Look for Patterns
+
+Imagine you're playing a card game, and every time you play, you follow the same rules. Why? Because those rules help you play fairly and efficiently.
+
+- Lay out all the cards on the table.
+- Compare each card with the next one.
+- If they’re in the correct order, leave them.
+- If not, swap them.
+- Repeat until all cards are in order.
+
+It’s the same in programming: some problems appear over and over again (like sorting cards or organizing items in a list), so programmers use patterns to make the job easier.
+
+#### Abstraction
+
+Abstraction is the art of hiding complicated details so we can focus on what’s important and make things easier. It’s like having a machine that does all the hard work, and you just press one button to control it.
+
+Imagine you have an ice cream machine, and all you have to do is press a button. You don’t need to know how the machine works inside, like which parts mix the ingredients or how it freezes them. You just press the button and ta-da! Ice cream!
+
+Another quick example: a TV remote.
+
+- You don’t need to know how the TV works inside, like what circuits or components make the image appear.
+- You just press the remote buttons like “volume up,” “change channel,” or “power off.”
+
+### Introduction to Python
+
+In 1989, a programmer named Guido van Rossum wanted to create a programming language that was easy to understand and fun to use. He thought: “Why do programming languages have to be so complicated and hard? I'm going to make one that's simple and clear!”
+
+**Why is it called Python?**
+
+It has nothing to do with snakes (even though the logo is a snake 🐍). Guido van Rossum was a fan of a TV show called *Monty Python’s Flying Circus*. So he decided to name his new language "Python" for that fun reason!
+
+> Python is a very popular, high-level girl! 😎
+
+#### IDE
+
+**English:** Integrated Development Environment  
+**Spanish:** Entorno de Desarrollo Integrado
+
+An IDE is a program that brings together all the tools you need to write, test, and debug programs easily and efficiently. It’s like a super tool to help you code faster and in a more organized way.
+
+**What does an IDE include?**
+
+An IDE has everything you need to code comfortably. Imagine it like a workshop with all the tools at your fingertips:
+
+- **Code Editor:** Like a notebook where you write your program's instructions (the code).
+- **Compiler/Interpreter:** Helps translate your code into something the computer can understand and run.
+- **Debugger:** Helps you find and fix errors in your code (like a detective solving problems).
+- **Terminal or Console:** Lets you see the output of your program or run commands directly.
+
+#### [Replit](https://replit.com/)
+
+Official IDE!! `Only if you want to! ;)`
+
+```python
+# Expectation: Click, click... next, next!
+# Reality: Well, it depends on the system you're using right now.
+# Choose the 'free version'
+
+Challenge: Run a "Hello World"
